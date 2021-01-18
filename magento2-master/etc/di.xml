@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="TmobLabs\Tappz\API\Data\IndexInterface"
+                type="TmobLabs\Tappz\Model\Data\Index" />
+    <preference for="TmobLabs\Tappz\API\IndexRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Index\IndexRepository" />
+    <preference for="TmobLabs\Tappz\API\Data\ProductInterface"
+                type="TmobLabs\Tappz\Model\Data\Product" />
+    <preference for="TmobLabs\Tappz\API\ProductRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Product\ProductRepository" />
+    <preference for="TmobLabs\Tappz\API\Data\CategoryInterface"
+                type="TmobLabs\Tappz\Model\Data\Category" />
+    <preference for="TmobLabs\Tappz\API\CategoryRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Category\CategoryRepository" />
+    <preference for="TmobLabs\Tappz\API\Data\ProfileInterface"
+                type="TmobLabs\Tappz\Model\Data\Profile" />
+    <preference for="TmobLabs\Tappz\API\ProfileRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Profile\ProfileRepository" />
+    <preference for="Magento\Directory\Helper\RequestHandler" type="TmobLabs\Tappz\Helper\RequestHandler" />
+    <preference for="TmobLabs\Tappz\API\Data\LocationInterface"
+                type="TmobLabs\Tappz\Model\Data\Location" />
+    <preference for="TmobLabs\Tappz\API\LocationRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Location\LocationRepository" />
+    <preference for="TmobLabs\Tappz\API\Data\AddressInterface"
+                type="TmobLabs\Tappz\Model\Data\Address" />
+    <preference for="TmobLabs\Tappz\API\AddressRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Address\AddressRepository" />
+    <preference for="TmobLabs\Tappz\API\Data\BasketInterface"
+                   type="TmobLabs\Tappz\Model\Data\Basket" />
+    <preference for="TmobLabs\Tappz\API\BasketRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Basket\BasketRepository" />
+    <preference for="TmobLabs\Tappz\API\Data\OrderInterface"
+                type="TmobLabs\Tappz\Model\Data\Order" />
+    <preference for="TmobLabs\Tappz\API\OrderRepositoryInterface"
+                type="TmobLabs\Tappz\Model\Order\OrderRepository" />
+    <preference for="TmobLabs\Tappz\API\Data\PurchaseInterface"
+                type="TmobLabs\Tappz\Model\Data\Purchase" />
+
+</config>
